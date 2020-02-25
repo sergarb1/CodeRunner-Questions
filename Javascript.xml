@@ -1,0 +1,6113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript/Javascript 1) Primeros pasos</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 18  -->
+  <question type="coderunner">
+    <name>
+      <text>Hola Mundo - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Realice un programa que muestre por pantalla el texto "Hola mundo!" sin comillas.<br><br>Recuerde que el texto debe mostrarse tal cual se pide.<br>Textos como "Hola mundo." o "HOLA MUNDO!" o "¡Hola mundo!" no son válidos.<br><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="1" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text></text>
+      </stdin>
+      <expected>
+                <text>Hola mundo!</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript/Javascript 2) Entrada estandar y condicionales</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 21  -->
+  <question type="coderunner">
+    <name>
+      <text>Aumento de sueldo - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[De un operario se obtiene por teclado una línea con su sueldo (sin decimales) y en otro línea los años de antigüedad.<br>Se pide un programa que lea los datos de entrada e informe:<br>&nbsp;&nbsp; &nbsp;a) Si el sueldo es inferior a 500 y su antigüedad es igual o superior a 10 años, triplicar el sueldo.<br>&nbsp;&nbsp; &nbsp;b) Si el sueldo es inferior a 500 pero su antigüedad es menor a 10 años, doblar sueldo.<br>&nbsp;&nbsp; &nbsp;c) Si el sueldo es mayor o igual a 500 mostrar sin cambios.<br>Imprime el sueldo resultante.<p align="justify"><span id="selectionBoundary_1505726236710_09001152543670077" style="line-height: 0; display: none;" class="rangySelectionBoundary">﻿</span></p><p align="justify"><span id="selectionBoundary_1505726236708_7645350476675505" style="line-height: 0; display: none;" class="rangySelectionBoundary">﻿</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>500
+10</text>
+      </stdin>
+      <expected>
+                <text>500</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>400
+29</text>
+      </stdin>
+      <expected>
+                <text>1200</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>499
+22</text>
+      </stdin>
+      <expected>
+                <text>1497</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3022
+3</text>
+      </stdin>
+      <expected>
+                <text>3022</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>120
+9</text>
+      </stdin>
+      <expected>
+                <text>240</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>120
+10</text>
+      </stdin>
+      <expected>
+                <text>360</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>200
+11</text>
+      </stdin>
+      <expected>
+                <text>600</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>200
+9</text>
+      </stdin>
+      <expected>
+                <text>400</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>499
+2</text>
+      </stdin>
+      <expected>
+                <text>998</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 25  -->
+  <question type="coderunner">
+    <name>
+      <text>Calificaciones - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Escribe un programa que lea por entrada estándar una calificación numérica entre 0 y 10 (con decimales) y la transforma en calificación alfabética según la siguiente tabla.<br>• de 0 a &lt;3 Muy deficiente<br>• de 3 a &lt;5 Insuficiente<br>• de 5 a &lt;6 Bien<br>• de 6 a &lt;9 Notable<br>• de 9 a 10 Sobresaliente]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0</text>
+      </stdin>
+      <expected>
+                <text>Muy deficiente</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>Insuficiente</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5.3</text>
+      </stdin>
+      <expected>
+                <text>Bien</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>6</text>
+      </stdin>
+      <expected>
+                <text>Notable</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9</text>
+      </stdin>
+      <expected>
+                <text>Sobresaliente</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>8.9</text>
+      </stdin>
+      <expected>
+                <text>Notable</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0.5</text>
+      </stdin>
+      <expected>
+                <text>Muy deficiente</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4.3</text>
+      </stdin>
+      <expected>
+                <text>Insuficiente</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5.7</text>
+      </stdin>
+      <expected>
+                <text>Bien</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>8.9</text>
+      </stdin>
+      <expected>
+                <text>Notable</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 27  -->
+  <question type="coderunner">
+    <name>
+      <text>Salario y sus impuestos - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Escribe un programa que lea en una línea el número de horas trabajadas y en otra línea el precio por hora.</p><p>Calcula el salario neto semanal de un trabajador en función del número de horas trabajadas y la tasa de impuestos de acuerdo a las siguientes reglas:</p>• Las primeras 35 horas se pagan a tarifa normal.<br>• Las horas que pasen de 35 se pagan a 1.5 veces la tarifa normal.<br><p><br></p><p>Al sueldo bruto se le aplicarán las siguientes tasas de impuestos:</p>• Los primeros 500 euros son libres de impuestos.<br>• Los siguientes 400 tienen un 25% de impuestos.<br>• Los restantes un 45% de impuestos.<br><p><br></p><p>Imprime por la salida estándar el salario calculado.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>36
+10</text>
+      </stdin>
+      <expected>
+                <text>365</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>35
+10</text>
+      </stdin>
+      <expected>
+                <text>350</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>35
+100</text>
+      </stdin>
+      <expected>
+                <text>2230</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2
+400</text>
+      </stdin>
+      <expected>
+                <text>725</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5
+100</text>
+      </stdin>
+      <expected>
+                <text>500</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>17
+39</text>
+      </stdin>
+      <expected>
+                <text>622.25</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 19  -->
+  <question type="coderunner">
+    <name>
+      <text>¿Alguno mayor que 10? - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify">
+ Lee
+por la entrada estándar (normalmente teclado) tres números usando
+readline().</p>
+<p align="justify">El comando readline() te permite
+leer una linea completa.</p>
+<p align="justify">Si al menos uno de los valores
+ingresados es mayor a 10, mostrar por la salida estándar
+(normalmente el teclado)  “ALGUNO MAYOR QUE 10”. En caso contario
+mostrar “NINGUNO MAYOR QUE 10”.</p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+10
+9</text>
+      </stdin>
+      <expected>
+                <text>NINGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>11
+10
+9</text>
+      </stdin>
+      <expected>
+                <text>ALGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+10
+10</text>
+      </stdin>
+      <expected>
+                <text>NINGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-5
+3
+-10000</text>
+      </stdin>
+      <expected>
+                <text>NINGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>44
+33
+11</text>
+      </stdin>
+      <expected>
+                <text>ALGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-5
+11
+-1666</text>
+      </stdin>
+      <expected>
+                <text>ALGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-5
+4
+32</text>
+      </stdin>
+      <expected>
+                <text>ALGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>100000
+2132
+3232</text>
+      </stdin>
+      <expected>
+                <text>ALGUNO MAYOR QUE 10</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 20  -->
+  <question type="coderunner">
+    <name>
+      <text>¿Es navidad? - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify">
+ Lee
+por la entrada estándar (normalmente teclado) día y mes en formato numérico, cada uno en una línea.</p>
+<p align="justify">Debes realizar un programa que imprima SI si es navidad (el 25 del 12) y NO si es no es navidad.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>24
+12</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25
+12</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+2</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25
+4</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1 
+12</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>31
+12</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript/Javascript 3) While y For</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 34  -->
+  <question type="coderunner">
+    <name>
+      <text>Cambio de moneda - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea una cantidad de dinero (múltiplo de 5) y tras ello desglose el cambio en billetes de 500,200,100,50,20,10,5 intentado dar el mínimo número de billetes.</p>El programa mostrará por la salida estándar el número mínimo de billetes.<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>500</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>455</text>
+      </stdin>
+      <expected>
+                <text>4</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>165</text>
+      </stdin>
+      <expected>
+                <text>4</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>30</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>35</text>
+      </stdin>
+      <expected>
+                <text>3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>370</text>
+      </stdin>
+      <expected>
+                <text>4</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>20</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2455</text>
+      </stdin>
+      <expected>
+                <text>8</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1500</text>
+      </stdin>
+      <expected>
+                <text>3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1775</text>
+      </stdin>
+      <expected>
+                <text>7</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 55  -->
+  <question type="coderunner">
+    <name>
+      <text>Lista de números invertida - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea una secuencia de números enteros en una misma línea y muestre como resultado la línea en orden inverso.</p><p>El programa incluirá una primera línea X, 1&lt;=X&lt;=100, indicando cuantos números a leer (esa línea no se tendrá en cuenta). Tras ello en la siguiente línea se leeran X números separados por espacios y se mostrará finalmente en una sola línea el resultado. <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+1 4 6 10 5 2 2 10 3 -1</text>
+      </stdin>
+      <expected>
+                <text>-1 3 10 2 2 5 10 6 4 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4
+5 5 5 5</text>
+      </stdin>
+      <expected>
+                <text>5 5 5 5</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>12
+-1000 2 3 4 5 6 7 8 9 -100 1 -2000</text>
+      </stdin>
+      <expected>
+                <text>-2000 1 -100 9 8 7 6 5 4 3 2 -1000</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+1 2 3 4 5 6 7 8 9 8</text>
+      </stdin>
+      <expected>
+                <text>8 9 8 7 6 5 4 3 2 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+8 9 8 7 6 5 4 3 2 1</text>
+      </stdin>
+      <expected>
+                <text>1 2 3 4 5 6 7 8 9 8</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9
+2 3 4 5 6 7 8 9 10</text>
+      </stdin>
+      <expected>
+                <text>10 9 8 7 6 5 4 3 2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 48  -->
+  <question type="coderunner">
+    <name>
+      <text>Número más alto y mas bajo - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea una secuencia de números enteros, uno por línea.</p><p>El programa deberá mostrar como resultado el número mas alto, seguido del número mas bajo, separados por un espacio.</p><p>El programa incluirá una primera línea X, 1&lt;=X&lt;=100, indicando cuantos números a leer (esa línea no se tendrá en cuenta). Tras ello se leeran X números en las próximas X líneas. <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+1
+4
+6
+10
+5
+2
+2
+10
+3
+-1</text>
+      </stdin>
+      <expected>
+                <text>10 -1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4
+5
+5
+5
+5</text>
+      </stdin>
+      <expected>
+                <text>5 5</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>12
+-1000
+2
+3
+4
+5
+6
+7
+8
+9
+-100
+1
+-2000</text>
+      </stdin>
+      <expected>
+                <text>9 -2000</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+8</text>
+      </stdin>
+      <expected>
+                <text>9 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+8
+9
+8
+7
+6
+5
+4
+3
+2
+1</text>
+      </stdin>
+      <expected>
+                <text>9 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9
+2
+3
+4
+5
+6
+7
+8
+9
+10</text>
+      </stdin>
+      <expected>
+                <text>10 2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 104  -->
+  <question type="coderunner">
+    <name>
+      <text>Numeros impares del N al 1 - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea un numero N y muestre por la salida estandar todos los impares desde N(inclusive) hasta 1 . <br></p><p>Cada número se mostrará en una línea distinta.<br></p><p>N siempre sera mayor o igual a 1.<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>3
+1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>20</text>
+      </stdin>
+      <expected>
+                <text>19
+17
+15
+13
+11
+9
+7
+5
+3
+1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>21</text>
+      </stdin>
+      <expected>
+                <text>21
+19
+17
+15
+13
+11
+9
+7
+5
+3
+1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25</text>
+      </stdin>
+      <expected>
+                <text>25
+23
+21
+19
+17
+15
+13
+11
+9
+7
+5
+3
+1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>7</text>
+      </stdin>
+      <expected>
+                <text>7
+5
+3
+1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 103  -->
+  <question type="coderunner">
+    <name>
+      <text>Numeros pares del 2 al N - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea un numero N y muestre por la salida estandar todos los pares desde 2 hasta N (inclusive). <br></p><p>Cada número se mostrará en una línea distinta.<br></p><p>N siempre sera mayor o igual a 2.<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4</text>
+      </stdin>
+      <expected>
+                <text>2
+4</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5</text>
+      </stdin>
+      <expected>
+                <text>2
+4</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>6</text>
+      </stdin>
+      <expected>
+                <text>2
+4
+6</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>20</text>
+      </stdin>
+      <expected>
+                <text>2
+4
+6
+8
+10
+12
+14
+16
+18
+20</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>21</text>
+      </stdin>
+      <expected>
+                <text>2
+4
+6
+8
+10
+12
+14
+16
+18
+20</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25</text>
+      </stdin>
+      <expected>
+                <text>2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 29  -->
+  <question type="coderunner">
+    <name>
+      <text>Tablas de multiplicar - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p align="justify">Desarrollar un programa que
+muestre la tabla de multiplicar del numero X, hasta el valor Y. Ambos
+los leerá de la entrada estándar y estarán en una sola línea separados por un espacio, siendo -50 &lt;= X &lt;= 50 , 1 &lt;= Y &lt;= 20<br></p>
+<p align="justify">La tabla la mostrará con una
+entrada por línea. Entre cada elemento habrá un único espacio de
+separación.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2 7</text>
+      </stdin>
+      <expected>
+                <text>2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>44 2</text>
+      </stdin>
+      <expected>
+                <text>44 x 1 = 44
+44 x 2 = 88
+</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-3 1</text>
+      </stdin>
+      <expected>
+                <text>-3 x 1 = -3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>24 10</text>
+      </stdin>
+      <expected>
+                <text>24 x 1 = 24
+24 x 2 = 48
+24 x 3 = 72
+24 x 4 = 96
+24 x 5 = 120
+24 x 6 = 144
+24 x 7 = 168
+24 x 8 = 192
+24 x 9 = 216
+24 x 10 = 240
+</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 20</text>
+      </stdin>
+      <expected>
+                <text>0 x 1 = 0
+0 x 2 = 0
+0 x 3 = 0
+0 x 4 = 0
+0 x 5 = 0
+0 x 6 = 0
+0 x 7 = 0
+0 x 8 = 0
+0 x 9 = 0
+0 x 10 = 0
+0 x 11 = 0
+0 x 12 = 0
+0 x 13 = 0
+0 x 14 = 0
+0 x 15 = 0
+0 x 16 = 0
+0 x 17 = 0
+0 x 18 = 0
+0 x 19 = 0
+0 x 20 = 0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1 1</text>
+      </stdin>
+      <expected>
+                <text>1 x 1 = 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 31  -->
+  <question type="coderunner">
+    <name>
+      <text>¿Algún diez? - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea una secuencia de notas (con valores que van de 0 a 10, sin decimales).</p><p>Se leerá una nota por línea.</p><p>La entrada acabará con el valor -1. El programa debe mostrar por salida estándar "SI" si hay algún 10, "NO" en caso contrario.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1
+4
+6
+10
+5
+2
+2
+10
+3
+-1</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5
+5
+5
+5
+-1</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1
+2
+3
+4
+5
+6
+7
+8
+9
+-1</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10
+-1</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2
+3
+4
+5
+1
+7
+8
+9
+10
+-1</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 44  -->
+  <question type="coderunner">
+    <name>
+      <text>¿Es primo? - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p align="justify"></p><p>Realiza un programa que lea número y diga si es primo o no.</p><p>El número puede tomar los valores 1 &lt;= numero &lt;=10000.<br></p><p>Recuerda que un número primo es aquel que solo es divisible por si mismo y por la unidad y que por convención el número 1 no se considera primo. La definición de primo la tienes en <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_primo">https://es.wikipedia.org/wiki/N%C3%BAmero_primo</a><br></p><p>Utiliza una forma optimizada para reducir el número de operaciones. <br></p><p>Si tienes problemas consulta la solución, pero te animamos a que primero lo intentes por tus medios :)</p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>15</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>89</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9833</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9789</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5843</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>739</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>7</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3821</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1907</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1317</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>99839</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>76825</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>83297</text>
+      </stdin>
+      <expected>
+                <text>NO</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>83339</text>
+      </stdin>
+      <expected>
+                <text>SI</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript/Javascript 4) Funciones</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 61  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: esBisiesto - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Un año es <b>bisiesto</b> si cumple los siguientes criterios:
+
+</p><ul><li><p>Es divisible entre 4.</p></li></ul><p>
+</p><ul><li><p>Si termina en 00, se comprueba si es divisible entre 400 (2000 y 2400 sí son bisiestos. 2100, 2200 y 2300 no lo son).</p></li>
+</ul> <p></p><p>Mas información sobre años bisiestos en <a href="https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto">https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto</a><br></p><p>Escribe una función que reciba un año y devuelva 1 si es bisiesto, 0 en caso contrario. La función no debe leer nada de la entrada estándar ni mandar ningún dato por la salida estándar.</p><p>La función debe definirse con este estilo:</p><pre>function esBisiesto(anyo)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseInt(readline());
+print(esBisiesto(a));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2000</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2100</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2011</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1992</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1994</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2005</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2008</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2200</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2204</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2017</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1492</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1200</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1400</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 98  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: esPalindromo- Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Escribe una función que reciba un texto (sin espacios) y diga si es palíndromo (true) o no (false).<br></p><p>La función no deberá distinguir entre mayúsculas y minúsculas.</p><p>La función debe definirse con este estilo:</p><pre>function esPalindromo(texto)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=readline();
+print(esPalindromo(a));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>OTTO</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>OtTo</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>Pedro</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>asereje</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>AmoraRoma</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>AmoraRoman</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>Dabalearrozalazorraelabad</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>ACAR</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>B</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>AEIEA</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 63  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: esPrimo - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Escribe una función que reciba un número y diga si es primo (devolviendo true) o no (devolviendo false).</p><p>El número puede tomar los valores 1 &lt;= numero &lt;=10000.<br></p><p>Recuerda
+ que un número primo es aquel que solo es divisible por si mismo y por 
+la unidad y que por convención el número 1 no se considera primo. La 
+definición de primo la tienes en <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_primo">https://es.wikipedia.org/wiki/N%C3%BAmero_primo</a><br></p><p>Utiliza una forma optimizada para reducir el número de operaciones. <br></p><p></p><p>La función debe definirse con este estilo:</p><pre>function esPrimo(num)</pre><br><p></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseInt(readline());
+print(esPrimo(a));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4
+</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>7</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>11</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>13</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>15</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>21</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>83339</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>83297</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>99839</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 64  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: factorial - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>El <b>factorial de n</b> se define en principio como el producto de todos los números enteros positivos desde 1 (es decir, los números naturales) hasta n. En el caso de 0, el resultado es 1.<i><br></i></p>Mas información sobre factorial en <a href="https://es.wikipedia.org/wiki/Factorial">https://es.wikipedia.org/wiki/Factorial</a><br><p>Escribe una función que reciba un entero entre 0 y 10 y calcule su factorial. No es válido el precalcular los valores.</p><p>La función debe definirse con este estilo:</p><pre>function factorial(num)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseInt(readline());
+print(factorial(a));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>6</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4</text>
+      </stdin>
+      <expected>
+                <text>24</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5</text>
+      </stdin>
+      <expected>
+                <text>120</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>6</text>
+      </stdin>
+      <expected>
+                <text>720</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>7</text>
+      </stdin>
+      <expected>
+                <text>5040</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>8</text>
+      </stdin>
+      <expected>
+                <text>40320</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9</text>
+      </stdin>
+      <expected>
+                <text>362880</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>10</text>
+      </stdin>
+      <expected>
+                <text>3628800</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 65  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: fibonacci - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>La sucesión de Fibonnaci se define en principio como f(n)=f(n-1)+f(N-2).</p><p>Hay dos casos especiales, los casos de f(0)=0 y f(1)=1.<i><br></i></p>Mas información sobre la sucesión de Fibonacci en <a href="https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci">https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci</a><br><p>Escribe una función que reciba un entero entre 0 y 20 y calcule su número de Fibonacci. No es válido el precalcular los valores.</p><p>La función debe definirse con este estilo:</p><pre>function fibonacci(num)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseInt(readline());
+print(fibonacci(a));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4</text>
+      </stdin>
+      <expected>
+                <text>3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>5</text>
+      </stdin>
+      <expected>
+                <text>5</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>6</text>
+      </stdin>
+      <expected>
+                <text>8</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>7</text>
+      </stdin>
+      <expected>
+                <text>13</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>8</text>
+      </stdin>
+      <expected>
+                <text>21</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>20</text>
+      </stdin>
+      <expected>
+                <text>6765</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>30</text>
+      </stdin>
+      <expected>
+                <text>832040</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>15</text>
+      </stdin>
+      <expected>
+                <text>610</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>25</text>
+      </stdin>
+      <expected>
+                <text>75025</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 62  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: perimetroRectangulo - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Escribe una función que reciba dos decimales con la base y altura de un rectángulo y devuelva su perímetro. La función no debe leer nada de la entrada estándar ni mandar ningún dato por la salida estándar.</p><p><b>Nota</b>: se devolverá un decimal (float). El juez internamete se encargará de redondearlo a 2 decimales.<br></p><p>La función debe definirse con este estilo:</p><pre>function perimetroRectangulo(a, b)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseFloat(readline());
+var b=parseFloat(readline());
+print(perimetroRectangulo(a,b).toFixed(2));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>11.50
+2.00</text>
+      </stdin>
+      <expected>
+                <text>27.00</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1.10
+2.20</text>
+      </stdin>
+      <expected>
+                <text>6.60</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>100.00
+1.00</text>
+      </stdin>
+      <expected>
+                <text>202.00</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>213312.00
+213312.00
+</text>
+      </stdin>
+      <expected>
+                <text>853248.00</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0.00
+0.00</text>
+      </stdin>
+      <expected>
+                <text>0.00</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1.00
+2.00</text>
+      </stdin>
+      <expected>
+                <text>6.00</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>3.00
+2.40</text>
+      </stdin>
+      <expected>
+                <text>10.80</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2.60
+2.60</text>
+      </stdin>
+      <expected>
+                <text>10.40</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 47  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: Suma - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Escribe una función que reciba dos enteros y devuelva su suma. La función no debe leer nada de la entrada estándar ni mandar ningún dato por la salida estándar.</p><p>La función debe definirse con este estilo:</p><pre>function suma(a, b)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=parseInt(readline());
+var b=parseInt(readline());
+print(suma(a,b));]]></template>
+    <iscombinatortemplate>0</iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2
+3</text>
+      </stdin>
+      <expected>
+                <text>5</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>100
+2212</text>
+      </stdin>
+      <expected>
+                <text>2312</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>100
+-500</text>
+      </stdin>
+      <expected>
+                <text>-400</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>213312
+213312
+</text>
+      </stdin>
+      <expected>
+                <text>426624</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0
+0</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1
+-2</text>
+      </stdin>
+      <expected>
+                <text>-3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1
+2</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2
+-1</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$system$/top/Javascript/Javascript 5) Problemas serios</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 105  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: Buscaminas - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Realiza una función que reciba un array bidimensional (de longitud variable) un escenario de Buscaminas, donde haya un 0 donde no hay minas y un -1 donde si hay.<br></p>Mas información de como funciona el Buscaminas <a href="https://es.wikipedia.org/wiki/Buscaminas">https://es.wikipedia.org/wiki/Buscaminas</a><br>Para cada casilla que no tenga una mina, diga cuantas minas adyacentes hay en diagonal, horizontal y vertical.<br><p><br></p><p>Internamente el programa realizará las acciones con una función definida como</p><pre>function contandoMinas(Campo)<br></pre><p>La función devolverá un array bidimensional con el numero de minas adyacentes en cada posición.</p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+{{ STUDENT_ANSWER }}
+
+var array = [];
+var cadena=""
+while(cadena=readline()){
+    
+    var numbers = cadena.split(" ");
+    if(numbers.length==0)
+         break;
+    var temp_row = [];
+    for (var j = 0; j < numbers.length; j++) {
+        temp_row.push(numbers[j]);
+    }
+    array.push(temp_row);
+}
+
+var respuesta=contandoMinas(array);
+var cadena="";
+for(var i=0;i<respuesta.length;i++){
+    cadena+=respuesta[i][0];
+    for(var j=1;j<respuesta[0].length;j++){
+        cadena+=" "+respuesta[i][j];
+    }
+    cadena+="\n";
+}
+print(cadena);
+
+]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 0 -1 0
+0 -1 -1 0</text>
+      </stdin>
+      <expected>
+                <text>1 3 -1 2
+1 -1 -1 2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 -1 -1 -1
+-1 -1 -1 0</text>
+      </stdin>
+      <expected>
+                <text>-1 -1 -1 -1
+-1 -1 -1 3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 -1 -1 -1
+-1 -1 -1 -1</text>
+      </stdin>
+      <expected>
+                <text>-1 -1 -1 -1
+-1 -1 -1 -1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 0 0
+0 0 0
+0 0 0</text>
+      </stdin>
+      <expected>
+                <text>0 0 0
+0 0 0
+0 0 0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 0 0
+0 -1 0
+0 0 0</text>
+      </stdin>
+      <expected>
+                <text>1 1 1
+1 -1 1
+1 1 1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 0 -1 0 -1
+-1 0 -1 0 -1
+0 -1 0 -1 0</text>
+      </stdin>
+      <expected>
+                <text>-1 4 -1 4 -1
+-1 5 -1 5 -1
+2 -1 3 -1 2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 -1 -1
+-1 0 -1
+-1 -1 -1</text>
+      </stdin>
+      <expected>
+                <text>-1 -1 -1
+-1 8 -1
+-1 -1 -1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 -1 -1
+0 -1 -1
+-1 -1 -1</text>
+      </stdin>
+      <expected>
+                <text>-1 -1 -1
+5 -1 -1
+-1 -1 -1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>-1 -1 -1 -1 -1
+0 -1 -1 0 -1
+-1 -1 -1 -1 -1</text>
+      </stdin>
+      <expected>
+                <text>-1 -1 -1 -1 -1
+5 -1 -1 8 -1
+-1 -1 -1 -1 -1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0</text>
+      </stdin>
+      <expected>
+                <text>0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 102  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: esSudokuCorrecto - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El Sudoku es un popular pasatiempo que tenéis definido en https://es.wikipedia.org/wiki/Sudoku</p><p>Te pedimos que realices una función que reciba un array bidimensional con un Sudoku de 9x9 resuelto <br></p><p>y devuelva true si el Sudoku es correcto, false en caso contrario.<br></p><p>La función debe definirse con este estilo:</p><pre>function esSudokuCorrecto(miSudoku)<br></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var array = [];
+
+for (var i = 0; i < 10; i++) {
+    var numbers = readline().split(" ");
+    var temp_row = [];
+    for (var j = 0; j < numbers.length; j++) {
+        temp_row.push(numbers[j]);
+    }
+    array.push(temp_row);
+}
+
+print(esSudokuCorrecto(array));]]></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4 1 3 8 2 5 6 7 9
+5 6 7 1 4 9 8 3 2
+2 8 9 7 3 6 1 4 5
+1 9 5 4 6 2 7 8 3
+7 2 6 9 8 3 5 1 4
+3 4 8 5 1 7 2 9 6
+8 5 1 6 9 4 3 2 7
+9 7 2 3 5 8 4 6 1
+6 3 4 2 7 1 9 5 8</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1 3 9 6 5 4 7 2 8
+6 8 7 9 3 2 1 4 5
+4 2 5 8 1 7 9 3 6
+8 6 2 5 7 3 4 1 9
+9 7 1 2 4 8 5 6 3
+3 5 4 1 9 6 8 7 2
+2 9 8 7 6 1 3 5 4
+5 1 3 4 2 9 6 8 7
+7 4 6 3 8 5 2 9 1
+</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9 8 5 7 3 4 6 2 1
+2 4 6 1 9 8 7 3 5
+7 3 1 2 5 6 4 9 8
+8 2 9 3 6 5 1 7 4
+4 5 3 8 7 1 9 6 2
+6 1 7 9 4 2 5 8 3
+5 6 8 4 2 9 3 1 7
+3 9 2 5 1 7 8 4 6
+1 7 4 6 8 3 2 5 9</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2 9 8 7 5 4 6 3 1
+6 3 4 9 1 8 7 2 5
+1 7 5 3 2 6 8 4 9
+9 2 3 8 7 1 5 6 4
+5 8 7 4 6 3 1 9 2
+4 1 6 2 9 5 3 7 8
+7 6 2 5 8 9 4 1 3
+8 4 9 1 3 7 2 5 6
+3 5 1 6 4 2 9 8 7</text>
+      </stdin>
+      <expected>
+                <text>true</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>2 9 8 7 5 4 6 3 1
+6 3 4 9 1 8 7 2 5
+1 7 5 3 4 6 8 4 9
+9 2 3 8 7 1 5 6 4
+5 8 7 4 6 3 1 9 2
+4 1 6 2 9 5 3 7 8
+7 6 2 5 8 9 4 1 3
+8 4 9 1 3 7 2 5 6
+3 5 1 6 4 2 9 8 7</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+9 9 9 9 9 0 0 0 0
+</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4 1 3 8 2 5 6 7 9
+5 6 7 1 4 9 8 3 2
+2 8 9 7 3 6 1 4 5
+1 9 5 4 6 2 7 8 3
+7 2 6 9 8 3 5 1 4
+1 4 8 5 1 7 2 9 6
+8 5 3 6 9 4 3 2 7
+9 7 2 3 5 8 4 6 1
+6 3 4 2 7 1 9 8 5</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>4 1 3 8 2 5 6 7 9
+5 6 7 1 4 9 8 3 2
+2 8 9 7 3 6 1 4 5
+1 9 5 4 6 2 7 8 3
+7 2 6 9 8 3 5 1 4
+3 4 8 5 1 7 3 9 6
+8 5 1 6 9 4 2 2 7
+9 7 2 3 5 8 4 6 1
+6 3 4 2 7 1 9 5 8</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9 </text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0</text>
+      </stdin>
+      <expected>
+                <text>false</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+<!-- question: 106  -->
+  <question type="coderunner">
+    <name>
+      <text>Función: numeroPatrones - Javascript</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Realiza una función que reciba una cadena y cuente cuantas veces ocurre cada uno de estos patrones sin distinguir mayúsculas y minúsculas:</p><p>Los patrones son “00” “101”, “ABC”, “HO”.<br></p><p>Un carácter puede formar parte de mas de un patrón encontrado.</p><p>Por ejemplo:</p><p>En la cadena “000” el patrón “00” aparece dos veces (uyna empieza en la posición 0 y otra empieza en la posición 1).</p><p>La función se definirá como<br></p><pre>function numeroPatrones(texto)</pre><p>Y devolverá un entero con el número de patrones encontrados en la cadena</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>nodejs</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>1</allornothing>
+    <penaltyregime>0</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>18</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload></answerpreload>
+    <globalextra></globalextra>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template><![CDATA[/**********************************************************/	
+/*  CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT    */
+/**********************************************************/
+
+const print = console.log;
+const readline = utf8readline;
+function utf8readline() {
+    var r = '', b=new Buffer(10), bi=0, bl=0;
+    b.fill(0);
+    while (1) {
+        var br = require('fs').readSync(0, b, bi, 1,null);
+        if (!br) {
+            readline.eof = true;
+            r += b.toString('utf-8', 0, bi);
+            return r;
+        }
+        var byte = b[bi];
+        bi += br;
+        
+        if (bl) {
+            bl--;
+            if ((byte & 0xC0) !== 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+        }
+        else {
+            if ((byte & 0xC0) == 0x80) {
+                console.error('readline: invalid utf-8 code point');
+            }
+            if ((byte & 0xE0) == 0xC0) {
+                bl = 1;
+            }
+            if ((byte & 0xF0) == 0xE0) {
+                bl = 2;
+            }
+            if ((byte & 0xF8) == 0xF0) {
+                bl = 3;
+            }
+        }
+
+        var eoln = byte == 0x0A;
+        if (eoln) {
+            bl = 0;
+            bi--;
+        }
+
+        if (!bl) {
+            r += b.toString('utf-8', 0, bi);
+            bi=0;
+        }
+
+        if (eoln || readline.eof) {
+            return r;
+        }
+    }
+}
+
+
+/**********************************************************/	
+/* FIN CODIGO INICIAL A ANYADIR PARA USAR READLINE Y PRINT */
+/**********************************************************/
+
+
+
+// AQUI EMPIEZA LA RESPUESTA DEL ALUMNO
+
+{{ STUDENT_ANSWER }}
+var SEPARATOR = "#<ab@17943918#@>#";
+var a=readline();
+print(numeroPatrones(a));]]></template>
+    <iscombinatortemplate>0</iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer></answer>
+    <validateonsave>0</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs></cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>0</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <maxfilesize>0</maxfilesize>
+    <filenamesregex></filenamesregex>
+    <filenamesexplain></filenamesexplain>
+    <displayfeedback>1</displayfeedback>
+    <testcases>
+      <testcase testtype="0" useasexample="1" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>000</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>101</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>A</text>
+      </stdin>
+      <expected>
+                <text>0</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>HOH</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>HOHO0</text>
+      </stdin>
+      <expected>
+                <text>2</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>ABCAB0C0</text>
+      </stdin>
+      <expected>
+                <text>1</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text></text>
+      </testcode>
+      <stdin>
+                <text>1010101</text>
+      </stdin>
+      <expected>
+                <text>3</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>SHOW</text>
+      </display>
+    </testcase>
+    </testcases>
+  </question>
+
+</quiz>
